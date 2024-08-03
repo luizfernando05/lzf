@@ -34,3 +34,20 @@
 .header-nav-list-item a:hover::after {
   width: 100%;
 }
+
+@media (max-width: 800px) {
+  .header-nav-list {
+    gap: 20px;
+  }
+  .header-nav-list-item a {
+    background: var(--gray-color-03);
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+  .header-nav-list-item a:hover {
+    background-color: var(--gray-color-04);
+  }
+  .header-nav-list-item a::after {
+    display: none;
+  }
+}
