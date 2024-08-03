@@ -1,0 +1,32 @@
+body {
+  background-color: var(--gray-color-01);
+  color: var(--gray-color-12);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body-regular-400);
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
