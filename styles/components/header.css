@@ -1,0 +1,36 @@
+.header-content,
+.header-nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-nav-list {
+  gap: 40px;
+}
+
+.header-nav-list-item a {
+  display: inline-block;
+  position: relative;
+}
+
+.header-nav-list-item a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: var(--gray-color-12);
+  margin-top: 8px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-nav-list-item a:hover::after {
+  width: 100%;
+}

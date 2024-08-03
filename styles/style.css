@@ -2,3 +2,5 @@
 @import url(./geral/colors.css);
 @import url(./geral/typography.css);
 @import url(./geral/geral.css);
+
+@import url(./components/header.css);
