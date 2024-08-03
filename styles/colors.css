@@ -1,0 +1,123 @@
+:root {
+  --gray-color-01: #111111;
+  --gray-color-02: #191919;
+  --gray-color-03: #222222;
+  --gray-color-04: #2a2a2a;
+  --gray-color-05: #313131;
+  --gray-color-06: #3a3a3a;
+  --gray-color-07: #484848;
+  --gray-color-08: #606060;
+  --gray-color-09: #6e6e6e;
+  --gray-color-10: #7b7b7b;
+  --gray-color-11: #b4b4b4;
+  --gray-color-12: #eeeeee;
+
+  --primary-color-01: #11131f;
+  --primary-color-02: #141726;
+  --primary-color-03: #182449;
+  --primary-color-04: #1d2e62;
+  --primary-color-05: #253974;
+  --primary-color-06: #304384;
+  --primary-color-07: #3a4f97;
+  --primary-color-08: #435db1;
+  --primary-color-09: #3e63dd;
+  --primary-color-10: #5472e4;
+  --primary-color-11: #9eb1ff;
+  --primary-color-12: #d6e1ff;
+}
+
+.gray-color-01 {
+  color: var(--gray-color-01);
+}
+
+.gray-color-02 {
+  color: var(--gray-color-02);
+}
+
+.gray-color-03 {
+  color: var(--gray-color-03);
+}
+
+.gray-color-04 {
+  color: var(--gray-color-04);
+}
+
+.gray-color-05 {
+  color: var(--gray-color-05);
+}
+
+.gray-color-06 {
+  color: var(--gray-color-06);
+}
+
+.gray-color-07 {
+  color: var(--gray-color-07);
+}
+
+.gray-color-08 {
+  color: var(--gray-color-08);
+}
+
+.gray-color-09 {
+  color: var(--gray-color-09);
+}
+
+.gray-color-10 {
+  color: var(--gray-color-10);
+}
+
+.gray-color-11 {
+  color: var(--gray-color-11);
+}
+
+.gray-color-12 {
+  color: var(--gray-color-12);
+}
+
+.primary-color-01 {
+  color: var(--primary-color-01);
+}
+
+.primary-color-02 {
+  color: var(--primary-color-02);
+}
+
+.primary-color-03 {
+  color: var(--primary-color-03);
+}
+
+.primary-color-04 {
+  color: var(--primary-color-04);
+}
+
+.primary-color-05 {
+  color: var(--primary-color-05);
+}
+
+.primary-color-06 {
+  color: var(--primary-color-06);
+}
+
+.primary-color-07 {
+  color: var(--primary-color-07);
+}
+
+.primary-color-08 {
+  color: var(--primary-color-08);
+}
+
+.primary-color-09 {
+  color: var(--primary-color-09);
+}
+
+.primary-color-10 {
+  color: var(--primary-color-10);
+}
+
+.primary-color-11 {
+  color: var(--primary-color-11);
+}
+
+.primary-color-12 {
+  color: var(--primary-color-12);
+}
