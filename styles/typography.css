@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --font-primary: "IBM Plex Mono", monospace;
+  --font-secondary: "IBM Plex Sans", sans-serif;
+
+  --font-weight-semibold: 600;
+  --font-weight-normal: 400;
+
+  --letter-spacing-wide: -0.2rem;
+  --letter-spacing-narrow: -0.15rem;
+  --letter-spacing-normal: -0.12rem;
+
+  --line-height-heading: 1.28;
+  --line-height-subheading: 0.75;
+  --line-height-button: 0.83;
+  --line-height-body: 0.75;
+
+  --font-size-heading-01: 3.5rem;
+  --font-size-heading-02: 3rem;
+  --font-size-heading-03: 2.5rem;
+  --font-size-heading-04: 2.25rem;
+  --font-size-heading-05: 2rem;
+  --font-size-heading-06: 1.5rem;
+  --font-size-subheading-01: 1.5rem;
+  --font-size-subheading-02: 1.25rem;
+  --font-size-subheading-03: 1rem;
+  --font-size-subheading-04: 0.875rem;
+  --font-size-button-regular: 1.25rem;
+  --font-size-button-small: 1rem;
+  --font-size-caption-01: 1rem;
+  --font-size-caption-02: 0.875rem;
+  --font-size-caption-03: 0.75rem;
+  --font-size-body-xxl-300: 1.5rem;
+  --font-size-body-xxl-400: 1.5rem;
+  --font-size-body-xtra-large-300: 1.25rem;
+  --font-size-body-xtra-large-400: 1.25rem;
+  --font-size-body-large-300: 1.125rem;
+  --font-size-body-large-400: 1.125rem;
+  --font-size-body-regular-300: 1rem;
+  --font-size-body-regular-400: 1rem;
+  --font-size-body-small-300: 0.875rem;
+  --font-size-body-small-400: 0.875rem;
+  --font-size-body-tiny-300: 0.75rem;
+  --font-size-body-tiny-400: 0.75rem;
+}
+
+/* Base class for headings */
+.font-heading {
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-wide);
+  line-height: var(--line-height-heading);
+}
+
+/* Specific heading sizes */
+.font-heading-01 {
+  font-size: var(--font-size-heading-01);
+  font-family: var(--font-primary);
+}
+.font-heading-02 {
+  font-size: var(--font-size-heading-02);
+  font-family: var(--font-primary);
+}
+.font-heading-03 {
+  font-size: var(--font-size-heading-03);
+  font-family: var(--font-primary);
+}
+.font-heading-04 {
+  font-size: var(--font-size-heading-04);
+  font-family: var(--font-primary);
+}
+.font-heading-05 {
+  font-size: var(--font-size-heading-05);
+  font-family: var(--font-primary);
+}
+.font-heading-06 {
+  font-size: var(--font-size-heading-06);
+  font-family: var(--font-primary);
+}
+
+/* Base class for subheadings */
+.font-subheading {
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-normal);
+  line-height: var(--line-height-subheading);
+}
+
+/* Specific subheading sizes */
+.font-subheading-01 {
+  font-size: var(--font-size-subheading-01);
+  font-family: var(--font-secondary);
+}
+.font-subheading-02 {
+  font-size: var(--font-size-subheading-02);
+  font-family: var(--font-secondary);
+}
+.font-subheading-03 {
+  font-size: var(--font-size-subheading-03);
+  font-family: var(--font-secondary);
+}
+.font-subheading-04 {
+  font-size: var(--font-size-subheading-04);
+  font-family: var(--font-secondary);
+}
+
+/* Base class for buttons */
+.font-button {
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Specific button sizes */
+.font-button-regular {
+  font-size: var(--font-size-button-regular);
+  line-height: var(--line-height-button);
+  font-family: var(--font-primary);
+}
+.font-button-small {
+  font-size: var(--font-size-button-small);
+  font-family: var(--font-secondary);
+}
+
+/* Base class for captions */
+.font-caption {
+  font-weight: var(--font-weight-normal);
+  text-transform: uppercase;
+}
+
+/* Specific caption sizes */
+.font-caption-01 {
+  font-size: var(--font-size-caption-01);
+  font-family: var(--font-secondary);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-normal);
+}
+.font-caption-02 {
+  font-size: var(--font-size-caption-02);
+  font-family: var(--font-secondary);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-normal);
+}
+.font-caption-03 {
+  font-size: var(--font-size-caption-03);
+  font-family: var(--font-secondary);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-normal);
+}
+
+/* Base class for body text */
+.font-body {
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-body);
+}
+
+/* Specific body text sizes and weights */
+.font-body-xxl-300 {
+  font-size: var(--font-size-body-xxl-300);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
+.font-body-xxl-400 {
+  font-size: var(--font-size-body-xxl-400);
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+.font-body-xtra-large-300 {
+  font-size: var(--font-size-body-xtra-large-300);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
+.font-body-xtra-large-400 {
+  font-size: var(--font-size-body-xtra-large-400);
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+.font-body-large-300 {
+  font-size: var(--font-size-body-large-300);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
+.font-body-large-400 {
+  font-size: var(--font-size-body-large-400);
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+.font-body-regular-300 {
+  font-size: var(--font-size-body-regular-300);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
+.font-body-regular-400 {
+  font-size: var(--font-size-body-regular-400);
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+.font-body-small-300 {
+  font-size: var(--font-size-body-small-300);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
+.font-body-small-400 {
+  font-size: var(--font-size-body-small-400);
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+.font-body-tiny-300 {
+  font-size: var(--font-size-body-tiny-300);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
+.font-body-tiny-400 {
+  font-size: var(--font-size-body-tiny-400);
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
+/* Media queries for responsive typography */
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+  .font-heading-01 {
+    font-size: 2.5rem;
+    letter-spacing: -0.15rem;
+  }
+  .font-heading-02 {
+    font-size: 2rem;
+    letter-spacing: -0.15rem;
+  }
+  .font-heading-03 {
+    font-size: 1.75rem;
+    letter-spacing: -0.15rem;
+  }
+  .font-heading-04 {
+    font-size: 1.5rem;
+    letter-spacing: -0.15rem;
+  }
+  .font-heading-05 {
+    font-size: 1.25rem;
+    letter-spacing: -0.15rem;
+  }
+  .font-heading-06 {
+    font-size: 1rem;
+    letter-spacing: -0.15rem;
+  }
+
+  .font-subheading-01 {
+    font-size: 1.25rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-subheading-02 {
+    font-size: 1.1rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-subheading-03 {
+    font-size: 0.95rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-subheading-04 {
+    font-size: 0.85rem;
+    letter-spacing: -0.12rem;
+  }
+
+  .font-button-regular {
+    font-size: 1.1rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-button-small {
+    font-size: 0.9rem;
+    letter-spacing: -0.12rem;
+  }
+
+  .font-caption-01 {
+    font-size: 0.9rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-caption-02 {
+    font-size: 0.75rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-caption-03 {
+    font-size: 0.65rem;
+    letter-spacing: -0.12rem;
+  }
+
+  .font-body-xxl-300 {
+    font-size: 1.25rem;
+  }
+  .font-body-xxl-400 {
+    font-size: 1.25rem;
+  }
+  .font-body-xtra-large-300 {
+    font-size: 1.1rem;
+  }
+  .font-body-xtra-large-400 {
+    font-size: 1.1rem;
+  }
+  .font-body-large-300 {
+    font-size: 1rem;
+  }
+  .font-body-large-400 {
+    font-size: 1rem;
+  }
+  .font-body-regular-300 {
+    font-size: 0.875rem;
+  }
+  .font-body-regular-400 {
+    font-size: 0.875rem;
+  }
+  .font-body-small-300 {
+    font-size: 0.75rem;
+  }
+  .font-body-small-400 {
+    font-size: 0.75rem;
+  }
+  .font-body-tiny-300 {
+    font-size: 0.625rem;
+  }
+  .font-body-tiny-400 {
+    font-size: 0.625rem;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .font-heading-01 {
+    font-size: 3rem;
+    letter-spacing: -0.15rem;
+  }
+  .font-heading-02 {
+    font-size: 2.5rem;
+    letter-spacing: -0.15rem;
+  }
+  .font-heading-03 {
+    font-size: 2rem;
+    letter-spacing: -0.15rem;
+  }
+  .font-heading-04 {
+    font-size: 1.75rem;
+    letter-spacing: -0.15rem;
+  }
+  .font-heading-05 {
+    font-size: 1.5rem;
+    letter-spacing: -0.15rem;
+  }
+  .font-heading-06 {
+    font-size: 1.25rem;
+    letter-spacing: -0.15rem;
+  }
+
+  .font-subheading-01 {
+    font-size: 1.375rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-subheading-02 {
+    font-size: 1.125rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-subheading-03 {
+    font-size: 1rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-subheading-04 {
+    font-size: 0.875rem;
+    letter-spacing: -0.12rem;
+  }
+
+  .font-button-regular {
+    font-size: 1.125rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-button-small {
+    font-size: 1rem;
+    letter-spacing: -0.12rem;
+  }
+
+  .font-caption-01 {
+    font-size: 0.875rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-caption-02 {
+    font-size: 0.75rem;
+    letter-spacing: -0.12rem;
+  }
+  .font-caption-03 {
+    font-size: 0.625rem;
+    letter-spacing: -0.12rem;
+  }
+
+  .font-body-xxl-300 {
+    font-size: 1.375rem;
+  }
+  .font-body-xxl-400 {
+    font-size: 1.375rem;
+  }
+  .font-body-xtra-large-300 {
+    font-size: 1.125rem;
+  }
+  .font-body-xtra-large-400 {
+    font-size: 1.125rem;
+  }
+  .font-body-large-300 {
+    font-size: 1rem;
+  }
+  .font-body-large-400 {
+    font-size: 1rem;
+  }
+  .font-body-regular-300 {
+    font-size: 0.875rem;
+  }
+  .font-body-regular-400 {
+    font-size: 0.875rem;
+  }
+  .font-body-small-300 {
+    font-size: 0.75rem;
+  }
+  .font-body-small-400 {
+    font-size: 0.75rem;
+  }
+  .font-body-tiny-300 {
+    font-size: 0.625rem;
+  }
+  .font-body-tiny-400 {
+    font-size: 0.625rem;
+  }
+}
