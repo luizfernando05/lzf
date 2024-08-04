@@ -85,3 +85,24 @@
     gap: 32px;
   }
 }
+
+@media (max-width: 600px) {
+  .ulti-projetos-content h2 {
+    margin-bottom: 24px;
+  }
+  .tech-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .tech-list-item::after {
+    display: none;
+  }
+  .ulti-projetos-cards {
+    gap: 20px;
+  }
+  .app-sobre {
+    margin-bottom: 24px;
+  }
+}
