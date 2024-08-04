@@ -23,6 +23,9 @@
 }
 
 @media (max-width: 800px) {
+  .sobre-holder {
+    margin-bottom: 40px;
+  }
   .sobre-content {
     display: flex;
     flex-direction: column;
