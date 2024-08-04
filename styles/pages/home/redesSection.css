@@ -1,0 +1,17 @@
+.redes-content {
+  margin-bottom: 92px;
+}
+
+.redes-content h2 {
+  margin-bottom: 8px;
+}
+
+.redes-content p {
+  margin-bottom: 32px;
+}
+
+.social-medias {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
