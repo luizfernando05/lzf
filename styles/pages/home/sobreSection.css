@@ -16,3 +16,12 @@
   flex-direction: column;
   gap: 12px;
 }
+
+@media (max-width: 800px) {
+  .sobre-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+  }
+}

@@ -32,7 +32,7 @@
   .main-content {
     gap: 40px;
     padding-top: 80px;
-    padding-bottom: 24px;
+    padding-bottom: 60px;
   }
 }
 
@@ -40,6 +40,6 @@
   .main-content {
     gap: 32px;
     padding-top: 32px;
-    padding-bottom: 24px;
+    padding-bottom: 40px;
   }
 }
