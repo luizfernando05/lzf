@@ -1,0 +1,18 @@
+.sobre-holder {
+  border-top: 2px solid var(--gray-color-06);
+  margin-bottom: 80px;
+}
+
+.sobre-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.sobre-email {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
