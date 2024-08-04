@@ -77,3 +77,11 @@
 .backend a:hover {
   color: var(--gray-color-12);
 }
+
+@media (max-width: 1200px) {
+  .ulti-projetos-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
