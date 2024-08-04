@@ -1,0 +1,79 @@
+.ulti-projetos-content h2 {
+  margin-bottom: 48px;
+}
+
+.ulti-projetos-content {
+  margin-bottom: 96px;
+}
+
+.ulti-projetos-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.ulti-projetos-item {
+  background: var(--gray-color-02);
+  padding: 32px 24px;
+  border-radius: 8px;
+}
+
+.project-logo {
+  margin-bottom: 24px;
+}
+
+.tech-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--gray-color-06);
+}
+
+.tech-list-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  position: relative;
+}
+
+.tech-list-item::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -16px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--gray-color-06);
+}
+
+.tech-list-item:last-child::after {
+  content: none;
+}
+
+.app-sobre {
+  margin-top: 20px;
+  margin-bottom: 36px;
+}
+
+.github {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 8px;
+  justify-items: center;
+}
+
+.github p:hover {
+  color: var(--gray-color-12);
+}
+
+.backend a {
+  text-decoration: underline;
+}
+
+.backend a:hover {
+  color: var(--gray-color-12);
+}
