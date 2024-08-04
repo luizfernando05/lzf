@@ -27,3 +27,11 @@
 .main-descri p {
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .main-content {
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 24px;
+  }
+}
