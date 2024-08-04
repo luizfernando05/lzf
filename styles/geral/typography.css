@@ -218,7 +218,7 @@
 /* Small screens (phones) */
 @media (max-width: 600px) {
   .font-heading-01 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: -0.15rem;
   }
   .font-heading-02 {
@@ -282,10 +282,10 @@
   }
 
   .font-body-xxl-300 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
   .font-body-xxl-400 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
   .font-body-xtra-large-300 {
     font-size: 1.1rem;
