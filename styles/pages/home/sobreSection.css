@@ -17,6 +17,11 @@
   gap: 12px;
 }
 
+.sobre-email a:hover {
+  color: var(--primary-color-12);
+  font-size: var(--font-size-body-large-300);
+}
+
 @media (max-width: 800px) {
   .sobre-content {
     display: flex;
