@@ -35,3 +35,11 @@
     padding-bottom: 24px;
   }
 }
+
+@media (max-width: 400px) {
+  .main-content {
+    gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+}
